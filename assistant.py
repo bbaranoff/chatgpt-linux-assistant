@@ -41,6 +41,9 @@ chatbot = Chatbot(api_key="YOUR_API_KEY!!!!!", system_prompt=system_prompt)
 #Main loop
 while True:
 	prompt = input("Query:> ")
+	if prompt == "changeme":
+		os.system('python /home/nirvana/chatgpt-linux-assistant/assista>
+      
 	#This part checks whether or not the user typed exit or quit
 	#to exit the script
 	if prompt.lower().strip() in ['exit', 'quit']:
